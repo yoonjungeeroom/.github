@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e1424"/>
+      <stop offset="100%" stop-color="#374254"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="16" fill="url(#g)"/>
+  <rect x="1" y="1" width="638" height="358" rx="15" fill="none" stroke="#66788E" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="320" cy="162" r="34" fill="none" stroke="#B1BCC9" stroke-width="2.5" opacity="0.9"/><path d="M310,144 L310,180 L338,162 Z" fill="#B1BCC9"/>
+  <text x="320" y="214" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#F8F7F3" text-anchor="middle">AI 토론 면접</text>
+  <text x="320" y="242" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="14" fill="#9AA6B5" text-anchor="middle">5인 페르소나 · 사회자 진행</text>
+</svg>
