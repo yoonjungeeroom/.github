@@ -177,12 +177,6 @@
 
 ## 🏗️ 시스템 아키텍처
 
-![alt text](systemArchitecture.png)
-
-> **Frontend**는 일반 도메인 요청을 **Backend(REST)** 로, 실시간 신호(PCM/영상)는 **AI 서버로 직접 WebSocket** 연결합니다.
-> **Backend**는 도메인·트랜잭션·인증의 단일 진실 원천이며 LLM 호출은 `AiServerClient`로 위임합니다.
-> **Crawler**는 서버리스로 수집한 채용/뉴스/블로그를 ChromaDB에 임베딩 적재해 질문·토론 주제의 RAG 근거가 됩니다.
-
 <details>
 <summary><b>🔄 1:1 면접 데이터 흐름 (클릭)</b></summary>
 
